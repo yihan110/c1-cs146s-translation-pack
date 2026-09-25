@@ -16,9 +16,9 @@
 | README | 本文件 | 使用说明 |
 | AI 协作日志 | `06_deliverables/AI日志.md` | 每天做了什么、踩了什么坑（aiUsage 佐证） |
 | AAR 复盘 | `06_deliverables/AAR.md` | 七维复盘：成功/失败经验 + 改进方案 |
-| 拿说明 | `06_deliverables/拿说明1-术语表定稿.md` 等 3 个 | 三个关键产出的「怎么做出来」演示 |
+| 拿说明 | `06_deliverables/拿说明1~4.md` 共 4 个 | 四个关键产出的「怎么做出来」演示（含真实 prompt 与前后对比） |
 | 发布步骤 | `06_deliverables/发布步骤.md` | 本地 zip / GitHub 发布说明（不翻墙、可选） |
-| 质量报告 | `05_quality/*.json` | 术语一致性检查 + 覆盖度统计 |
+| 质量报告 | `05_quality/*.json` | 术语一致性（0 疑点）+ 覆盖度（100%）+ 译文质量抽检（汉字 94,702） |
 
 ## 二、来源与完整性
 
@@ -46,6 +46,27 @@
 
 > 备注：课程主页 `index` 已抽取但按计划未列入翻译工作单（跳过）。
 
+### 缺口如何手动补齐（评审建议落地）
+这 5 篇原文是 JS 动态渲染 / Notion / Medium 被墙页，离线缓存里没有正文。不翻墙前提下已尝试 Wayback Machine（`web.archive.org`）直连超时，无法自动补。未来若有合法可达途径，按此即可补齐：
+
+| 缺口篇 | 补齐方式 |
+|---|---|
+| `good-context-good-code` | 原文 blog.stockapp.com 为 JS 渲染；用带 JS 渲染的抓取（`playwright` 打开后取 `document.body.innerText`），或 Wayback Machine `http://web.archive.org/web/*/blog.stockapp.com/good-context-good-code/` |
+| `how-warp-uses-warp` | 原文是 Notion 公开页；用 Playwright 等待 `Notion加载完成` 后导出，或 Wayback 存档 |
+| `peeking-under-the-hood-of-claude-code` | Medium 被墙；用 Wayback `web.archive.org/web/*/medium.com/@outsightai/peeking-under-the-hood*` 取存档正文 |
+| `prompt-engineering-guide` | 仅抓到 208 词目录；`promptingguide.ai/techniques` 整页重抓即可补全 |
+| `lessons-from-ai-code-reviews` | 离线包内无此篇正文、无来源 URL；需先在课程大纲里定位原始链接再补抓 |
+
+补齐后把正文放进 `01_sources/html/<slug>.md`，重跑 `02_make_workorders.py` → 翻译 → `03/04/05` 三个闸门即可，管线已支持增量。
+
+### 翻译"跳过规则"说明（针对"跳过是否过宽"的自查）
+译文并非全部中文化，以下内容**按规则刻意保留英文/原文**，不是漏译：
+1. **代码块与行内代码**：bash/Python/YAML/命令、函数名（`createMcpHandler()` 等）——全包被代码块跳过约 6,132 字符，均为示例，按规则保留；
+2. **示例 prompt**：文章里给读者的示例输入（如 "Split this file into separate modules..."），保留原文才可读；
+3. **专名与产品名**：Claude Code / Warp / MCP / OWASP / CWE / GitHub 等，按术语表保留；
+4. **URL、路径、版本号**：不翻译。
+> 经 `06_detail_check.py` 自查：全包译文 **HTML 结构残留 0 处**；汉字占比最低的几篇（mcp-server-authentication 27% 等）低占比均来自上述代码/标识符保留，正文叙述已全部中译，非漏译。
+
 ## 四、翻译流程（可复跑）
 
 ```
@@ -53,6 +74,8 @@
 02_make_workorders.py 从 source_map 生成 34 篇翻译工作单 + 批次 + 状态（03_translations/manifest.json）
 03_check_glossary.py  术语一致性质量闸门 → 05_quality/glossary_check_report.json（0 疑点）
 04_coverage.py        覆盖度统计 → 05_quality/coverage_report.json（100%）
+05_qa_sample.py       译文质量抽检（汉字总量 / 疑似占位篇 / 残留英文长句）→ 05_quality/qa_sample_report.json
+06_detail_check.py    汉字占比 / HTML 结构残留 / 代码块跳过量自查（命令行输出）
 ```
 
 **可复跑 / 换源**：4 条脚本均用**基于自身位置（`__file__`）的相对路径**定位工作根目录，不依赖任何写死的绝对路径——任意机器、任意目录下直接运行即可，无需改配置。换新课程时，更新 `01_sources/source_map.json` 后重跑脚本即出新包。
@@ -71,6 +94,7 @@
    python 04_pipeline\02_make_workorders.py
    python 04_pipeline\03_check_glossary.py
    python 04_pipeline\04_coverage.py
+   python 04_pipeline\05_qa_sample.py
    ```
 
 ## 六、发布（不翻墙）

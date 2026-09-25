@@ -1,0 +1,46 @@
+{
+  "n_files": 34,
+  "total_cjk": 94702,
+  "low_cjk_files": [
+    {
+      "slug": "good-context-good-code",
+      "zh_chars": 249,
+      "cjk_chars": 85,
+      "long_en_sentences_in_zh": []
+    },
+    {
+      "slug": "how-warp-uses-warp",
+      "zh_chars": 202,
+      "cjk_chars": 71,
+      "long_en_sentences_in_zh": []
+    },
+    {
+      "slug": "peeking-under-the-hood-of-claude-code",
+      "zh_chars": 261,
+      "cjk_chars": 87,
+      "long_en_sentences_in_zh": []
+    }
+  ],
+  "files_with_residual_english_sentences": [
+    {
+      "slug": "how-openai-uses-codex",
+      "samples": [
+        "Where is the authentication logic implemented in this repo?",
+        "Summarize how requests flow through this service from entrypoint to response.",
+        "Split this file into separate modules by concern and generate tests for each one.",
+        "Optimize this loop for memory efficiency and explain why your version is faster.",
+        "Find repeated expensive operations in this request handler and suggest caching opportunities."
+      ]
+    },
+    {
+      "slug": "prompt-engineering-overview",
+      "samples": [
+        "Summarize the main points of the following news article on climate change.",
+        "The quick brown fox jumps over the lazy dog.",
+        "Explain the concept of quantum computing and its potential impact on the future of technology.",
+        "What would happen if humans could travel at the speed of light?",
+        "Do you believe that artificial intelligence will eventually surpass human intelligence?"
+      ]
+    }
+  ]
+}
