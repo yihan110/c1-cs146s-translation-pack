@@ -1,0 +1,245 @@
+{
+  "rows": [
+    {
+      "slug": "prompt-engineering-guide",
+      "src_words": 208,
+      "zh_chars": 506,
+      "translated": true,
+      "skip_low_text": false
+    },
+    {
+      "slug": "prompt-engineering-overview",
+      "src_words": 4474,
+      "zh_chars": 7706,
+      "translated": true,
+      "skip_low_text": false
+    },
+    {
+      "slug": "sre-introduction",
+      "src_words": 4135,
+      "zh_chars": 7950,
+      "translated": true,
+      "skip_low_text": false
+    },
+    {
+      "slug": "devin-coding-agents-101",
+      "src_words": 3490,
+      "zh_chars": 7154,
+      "translated": true,
+      "skip_low_text": false
+    },
+    {
+      "slug": "good-context-good-code",
+      "src_words": 13,
+      "zh_chars": 249,
+      "translated": true,
+      "skip_low_text": true
+    },
+    {
+      "slug": "writing-effective-tools-for-agents",
+      "src_words": 3385,
+      "zh_chars": 7438,
+      "translated": true,
+      "skip_low_text": false
+    },
+    {
+      "slug": "mcp-food-for-thought",
+      "src_words": 886,
+      "zh_chars": 2173,
+      "translated": true,
+      "skip_low_text": false
+    },
+    {
+      "slug": "mcp-introduction",
+      "src_words": 4878,
+      "zh_chars": 11126,
+      "translated": true,
+      "skip_low_text": false
+    },
+    {
+      "slug": "mcp-registry-preview",
+      "src_words": 808,
+      "zh_chars": 2185,
+      "translated": true,
+      "skip_low_text": false
+    },
+    {
+      "slug": "mcp-server-authentication",
+      "src_words": 2053,
+      "zh_chars": 6428,
+      "translated": true,
+      "skip_low_text": false
+    },
+    {
+      "slug": "context-rot",
+      "src_words": 7607,
+      "zh_chars": 12608,
+      "translated": true,
+      "skip_low_text": false
+    },
+    {
+      "slug": "how-long-contexts-fail",
+      "src_words": 1587,
+      "zh_chars": 3498,
+      "translated": true,
+      "skip_low_text": false
+    },
+    {
+      "slug": "specs-are-the-new-source-code",
+      "src_words": 2106,
+      "zh_chars": 4261,
+      "translated": true,
+      "skip_low_text": false
+    },
+    {
+      "slug": "claude-code-best-practices",
+      "src_words": 1579,
+      "zh_chars": 3807,
+      "translated": true,
+      "skip_low_text": false
+    },
+    {
+      "slug": "how-warp-uses-warp",
+      "src_words": 14,
+      "zh_chars": 202,
+      "translated": true,
+      "skip_low_text": true
+    },
+    {
+      "slug": "peeking-under-the-hood-of-claude-code",
+      "src_words": 37,
+      "zh_chars": 261,
+      "translated": true,
+      "skip_low_text": false
+    },
+    {
+      "slug": "warp-vs-claude-code",
+      "src_words": 675,
+      "zh_chars": 1711,
+      "translated": true,
+      "skip_low_text": false
+    },
+    {
+      "slug": "ai-code-review-best-practices",
+      "src_words": 2217,
+      "zh_chars": 4190,
+      "translated": true,
+      "skip_low_text": false
+    },
+    {
+      "slug": "code-review-essentials",
+      "src_words": 2080,
+      "zh_chars": 3779,
+      "translated": true,
+      "skip_low_text": false
+    },
+    {
+      "slug": "code-reviews-just-do-it",
+      "src_words": 960,
+      "zh_chars": 1312,
+      "translated": true,
+      "skip_low_text": false
+    },
+    {
+      "slug": "how-to-review-code-effectively",
+      "src_words": 3566,
+      "zh_chars": 6887,
+      "translated": true,
+      "skip_low_text": false
+    },
+    {
+      "slug": "lessons-from-ai-code-reviews",
+      "src_words": 0,
+      "zh_chars": 172,
+      "translated": true,
+      "skip_low_text": true
+    },
+    {
+      "slug": "agentic-ai-threats",
+      "src_words": 7749,
+      "zh_chars": 9859,
+      "translated": true,
+      "skip_low_text": false
+    },
+    {
+      "slug": "copilot-prompt-injection-rce",
+      "src_words": 1231,
+      "zh_chars": 3051,
+      "translated": true,
+      "skip_low_text": false
+    },
+    {
+      "slug": "finding-vulnerabilities-claude-codex",
+      "src_words": 4292,
+      "zh_chars": 7946,
+      "translated": true,
+      "skip_low_text": false
+    },
+    {
+      "slug": "owasp-top-ten",
+      "src_words": 2481,
+      "zh_chars": 2302,
+      "translated": true,
+      "skip_low_text": false
+    },
+    {
+      "slug": "sast-vs-dast",
+      "src_words": 3067,
+      "zh_chars": 6517,
+      "translated": true,
+      "skip_low_text": false
+    },
+    {
+      "slug": "benefits-agentic-ai-oncall",
+      "src_words": 982,
+      "zh_chars": 1945,
+      "translated": true,
+      "skip_low_text": false
+    },
+    {
+      "slug": "kubernetes-troubleshooting-ai",
+      "src_words": 1419,
+      "zh_chars": 3108,
+      "translated": true,
+      "skip_low_text": false
+    },
+    {
+      "slug": "multi-agent-systems-ai-native",
+      "src_words": 2066,
+      "zh_chars": 3514,
+      "translated": true,
+      "skip_low_text": false
+    },
+    {
+      "slug": "observability-basics",
+      "src_words": 1837,
+      "zh_chars": 5043,
+      "translated": true,
+      "skip_low_text": false
+    },
+    {
+      "slug": "ai-assisted-code-review-assessment",
+      "src_words": 8008,
+      "zh_chars": 11129,
+      "translated": true,
+      "skip_low_text": false
+    },
+    {
+      "slug": "how-anthropic-uses-claude-code",
+      "src_words": 10695,
+      "zh_chars": 10007,
+      "translated": true,
+      "skip_low_text": false
+    },
+    {
+      "slug": "how-openai-uses-codex",
+      "src_words": 2064,
+      "zh_chars": 5418,
+      "translated": true,
+      "skip_low_text": false
+    }
+  ],
+  "n_translatable": 31,
+  "n_done": 31,
+  "coverage_percent": 100.0
+}

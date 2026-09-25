@@ -1,0 +1,209 @@
+{
+  "agentic-ai-threats": {
+    "local_html": "agentic-ai-threats.html",
+    "md": "01_sources\\html\\agentic-ai-threats.md",
+    "source_url": "https://unit42.paloaltonetworks.com/agentic-ai-threats/",
+    "words": 7749
+  },
+  "ai-code-review-best-practices": {
+    "local_html": "ai-code-review-best-practices.html",
+    "md": "01_sources\\html\\ai-code-review-best-practices.md",
+    "source_url": "https://graphite.dev/guides/ai-code-review-implementation-best-practices",
+    "words": 2217
+  },
+  "benefits-agentic-ai-oncall": {
+    "local_html": "benefits-agentic-ai-oncall.html",
+    "md": "01_sources\\html\\benefits-agentic-ai-oncall.md",
+    "source_url": "https://resolve.ai/blog/Top-5-Benefits",
+    "words": 982
+  },
+  "claude-code-best-practices": {
+    "local_html": "claude-code-best-practices.html",
+    "md": "01_sources\\html\\claude-code-best-practices.md",
+    "source_url": "https://www.anthropic.com/engineering/claude-code-best-practices",
+    "words": 1579
+  },
+  "code-review-essentials": {
+    "local_html": "code-review-essentials.html",
+    "md": "01_sources\\html\\code-review-essentials.md",
+    "source_url": "https://blakesmith.me/2015/02/09/code-review-essentials-for-software-teams.html",
+    "words": 2080
+  },
+  "code-reviews-just-do-it": {
+    "local_html": "code-reviews-just-do-it.html",
+    "md": "01_sources\\html\\code-reviews-just-do-it.md",
+    "source_url": "https://blog.codinghorror.com/code-reviews-just-do-it/",
+    "words": 960
+  },
+  "context-rot": {
+    "local_html": "context-rot.html",
+    "md": "01_sources\\html\\context-rot.md",
+    "source_url": "https://research.trychroma.com/context-rot",
+    "words": 7607
+  },
+  "copilot-prompt-injection-rce": {
+    "local_html": "copilot-prompt-injection-rce.html",
+    "md": "01_sources\\html\\copilot-prompt-injection-rce.md",
+    "source_url": "https://embracethered.com/blog/posts/2025/github-copilot-remote-code-execution-via-prompt-injection/",
+    "words": 1231
+  },
+  "devin-coding-agents-101": {
+    "local_html": "devin-coding-agents-101.html",
+    "md": "01_sources\\html\\devin-coding-agents-101.md",
+    "source_url": "https://devin.ai/agents101",
+    "words": 3490
+  },
+  "finding-vulnerabilities-claude-codex": {
+    "local_html": "finding-vulnerabilities-claude-codex.html",
+    "md": "01_sources\\html\\finding-vulnerabilities-claude-codex.md",
+    "source_url": "https://semgrep.dev/blog/2025/finding-vulnerabilities-in-modern-web-apps-using-claude-code-and-openai-codex/",
+    "words": 4292
+  },
+  "good-context-good-code": {
+    "local_html": "good-context-good-code.html",
+    "md": "01_sources\\html\\good-context-good-code.md",
+    "source_url": "https://blog.stockapp.com/good-context-good-code/",
+    "words": 13
+  },
+  "how-long-contexts-fail": {
+    "local_html": "how-long-contexts-fail.html",
+    "md": "01_sources\\html\\how-long-contexts-fail.md",
+    "source_url": "https://www.dbreunig.com/2025/06/22/how-contexts-fail-and-how-to-fix-them.html",
+    "words": 1587
+  },
+  "how-to-review-code-effectively": {
+    "local_html": "how-to-review-code-effectively.html",
+    "md": "01_sources\\html\\how-to-review-code-effectively.md",
+    "source_url": "https://github.blog/developer-skills/github/how-to-review-code-effectively-a-github-staff-engineers-philosophy/",
+    "words": 3566
+  },
+  "how-warp-uses-warp": {
+    "local_html": "how-warp-uses-warp.html",
+    "md": "01_sources\\html\\how-warp-uses-warp.md",
+    "source_url": "https://notion.warp.dev/How-Warp-uses-Warp-to-build-Warp-21643263616d81a6b9e3e63fd8a7380c",
+    "words": 14
+  },
+  "kubernetes-troubleshooting-ai": {
+    "local_html": "kubernetes-troubleshooting-ai.html",
+    "md": "01_sources\\html\\kubernetes-troubleshooting-ai.md",
+    "source_url": "https://resolve.ai/blog/kubernetes-troubleshooting-in-resolve-ai",
+    "words": 1419
+  },
+  "lessons-from-ai-code-reviews": {
+    "local_html": "lessons-from-ai-code-reviews.html",
+    "md": "01_sources\\html\\lessons-from-ai-code-reviews.md",
+    "source_url": "",
+    "words": 0
+  },
+  "mcp-food-for-thought": {
+    "local_html": "mcp-food-for-thought.html",
+    "md": "01_sources\\html\\mcp-food-for-thought.md",
+    "source_url": "https://www.reillywood.com/blog/apis-dont-make-good-mcp-tools/",
+    "words": 886
+  },
+  "mcp-introduction": {
+    "local_html": "mcp-introduction.html",
+    "md": "01_sources\\html\\mcp-introduction.md",
+    "source_url": "https://stytch.com/blog/model-context-protocol-introduction/",
+    "words": 4878
+  },
+  "mcp-registry-preview": {
+    "local_html": "mcp-registry-preview.html",
+    "md": "01_sources\\html\\mcp-registry-preview.md",
+    "source_url": "https://blog.modelcontextprotocol.io/posts/2025-09-08-mcp-registry-preview/",
+    "words": 808
+  },
+  "mcp-server-authentication": {
+    "local_html": "mcp-server-authentication.html",
+    "md": "01_sources\\html\\mcp-server-authentication.md",
+    "source_url": "https://developers.cloudflare.com/agents/guides/remote-mcp-server/",
+    "words": 2053
+  },
+  "multi-agent-systems-ai-native": {
+    "local_html": "multi-agent-systems-ai-native.html",
+    "md": "01_sources\\html\\multi-agent-systems-ai-native.md",
+    "source_url": "https://resolve.ai/blog/role-of-multi-agent-systems-AI-native-engineering",
+    "words": 2066
+  },
+  "observability-basics": {
+    "local_html": "observability-basics.html",
+    "md": "01_sources\\html\\observability-basics.md",
+    "source_url": "https://last9.io/blog/traces-spans-observability-basics/",
+    "words": 1837
+  },
+  "owasp-top-ten": {
+    "local_html": "owasp-top-ten.html",
+    "md": "01_sources\\html\\owasp-top-ten.md",
+    "source_url": "https://owasp.org/www-project-top-ten/",
+    "words": 2481
+  },
+  "peeking-under-the-hood-of-claude-code": {
+    "local_html": "peeking-under-the-hood-of-claude-code.html",
+    "md": "01_sources\\html\\peeking-under-the-hood-of-claude-code.md",
+    "source_url": "",
+    "words": 37
+  },
+  "prompt-engineering-guide": {
+    "local_html": "prompt-engineering-guide.html",
+    "md": "01_sources\\html\\prompt-engineering-guide.md",
+    "source_url": "https://www.promptingguide.ai/techniques",
+    "words": 208
+  },
+  "prompt-engineering-overview": {
+    "local_html": "prompt-engineering-overview.html",
+    "md": "01_sources\\html\\prompt-engineering-overview.md",
+    "source_url": "https://cloud.google.com/discover/what-is-prompt-engineering",
+    "words": 4474
+  },
+  "sast-vs-dast": {
+    "local_html": "sast-vs-dast.html",
+    "md": "01_sources\\html\\sast-vs-dast.md",
+    "source_url": "https://www.splunk.com/en_us/blog/learn/sast-vs-dast.html",
+    "words": 3067
+  },
+  "specs-are-the-new-source-code": {
+    "local_html": "specs-are-the-new-source-code.html",
+    "md": "01_sources\\html\\specs-are-the-new-source-code.md",
+    "source_url": "https://blog.ravi-mehta.com/p/specs-are-the-new-source-code",
+    "words": 2106
+  },
+  "sre-introduction": {
+    "local_html": "sre-introduction.html",
+    "md": "01_sources\\html\\sre-introduction.md",
+    "source_url": "https://sre.google/sre-book/introduction/",
+    "words": 4135
+  },
+  "warp-vs-claude-code": {
+    "local_html": "warp-vs-claude-code.html",
+    "md": "01_sources\\html\\warp-vs-claude-code.md",
+    "source_url": "https://www.warp.dev/university/getting-started/warp-vs-claude-code",
+    "words": 675
+  },
+  "writing-effective-tools-for-agents": {
+    "local_html": "writing-effective-tools-for-agents.html",
+    "md": "01_sources\\html\\writing-effective-tools-for-agents.md",
+    "source_url": "https://www.anthropic.com/engineering/writing-tools-for-agents",
+    "words": 3385
+  },
+  "ai-assisted-code-review-assessment": {
+    "local_pdf": "ai-assisted-code-review-assessment.pdf",
+    "txt": "01_sources\\pdf\\ai-assisted-code-review-assessment.txt",
+    "source_url": "",
+    "words": 8008,
+    "pdf": true
+  },
+  "how-anthropic-uses-claude-code": {
+    "local_pdf": "how-anthropic-uses-claude-code.pdf",
+    "txt": "01_sources\\pdf\\how-anthropic-uses-claude-code.txt",
+    "source_url": "",
+    "words": 10695,
+    "pdf": true
+  },
+  "how-openai-uses-codex": {
+    "local_pdf": "how-openai-uses-codex.pdf",
+    "txt": "01_sources\\pdf\\how-openai-uses-codex.txt",
+    "source_url": "",
+    "words": 2064,
+    "pdf": true
+  }
+}

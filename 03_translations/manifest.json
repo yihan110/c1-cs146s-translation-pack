@@ -1,0 +1,345 @@
+{
+  "glossary": "02_glossary/glossary.md",
+  "items": [
+    {
+      "slug": "prompt-engineering-guide",
+      "batch": "B1_主页与综述",
+      "source": "01_sources/html/prompt-engineering-guide.md",
+      "source_words": 208,
+      "zh": "03_translations/prompt-engineering-guide.zh.md",
+      "zh_rel": "03_translations/prompt-engineering-guide.zh.md",
+      "status": "done",
+      "pdf": false
+    },
+    {
+      "slug": "prompt-engineering-overview",
+      "batch": "B1_主页与综述",
+      "source": "01_sources/html/prompt-engineering-overview.md",
+      "source_words": 4474,
+      "zh": "03_translations/prompt-engineering-overview.zh.md",
+      "zh_rel": "03_translations/prompt-engineering-overview.zh.md",
+      "status": "done",
+      "pdf": false
+    },
+    {
+      "slug": "sre-introduction",
+      "batch": "B1_主页与综述",
+      "source": "01_sources/html/sre-introduction.md",
+      "source_words": 4135,
+      "zh": "03_translations/sre-introduction.zh.md",
+      "zh_rel": "03_translations/sre-introduction.zh.md",
+      "status": "done",
+      "pdf": false
+    },
+    {
+      "slug": "devin-coding-agents-101",
+      "batch": "B3_智能体与工具",
+      "source": "01_sources/html/devin-coding-agents-101.md",
+      "source_words": 3490,
+      "zh": "03_translations/devin-coding-agents-101.zh.md",
+      "zh_rel": "03_translations/devin-coding-agents-101.zh.md",
+      "status": "done",
+      "pdf": false
+    },
+    {
+      "slug": "good-context-good-code",
+      "batch": "B3_智能体与工具",
+      "source": "01_sources/html/good-context-good-code.md",
+      "source_words": 13,
+      "zh": "03_translations/good-context-good-code.zh.md",
+      "zh_rel": "03_translations/good-context-good-code.zh.md",
+      "status": "done",
+      "pdf": false
+    },
+    {
+      "slug": "writing-effective-tools-for-agents",
+      "batch": "B3_智能体与工具",
+      "source": "01_sources/html/writing-effective-tools-for-agents.md",
+      "source_words": 3385,
+      "zh": "03_translations/writing-effective-tools-for-agents.zh.md",
+      "zh_rel": "03_translations/writing-effective-tools-for-agents.zh.md",
+      "status": "done",
+      "pdf": false
+    },
+    {
+      "slug": "mcp-food-for-thought",
+      "batch": "B4_MCP",
+      "source": "01_sources/html/mcp-food-for-thought.md",
+      "source_words": 886,
+      "zh": "03_translations/mcp-food-for-thought.zh.md",
+      "zh_rel": "03_translations/mcp-food-for-thought.zh.md",
+      "status": "done",
+      "pdf": false
+    },
+    {
+      "slug": "mcp-introduction",
+      "batch": "B4_MCP",
+      "source": "01_sources/html/mcp-introduction.md",
+      "source_words": 4878,
+      "zh": "03_translations/mcp-introduction.zh.md",
+      "zh_rel": "03_translations/mcp-introduction.zh.md",
+      "status": "done",
+      "pdf": false
+    },
+    {
+      "slug": "mcp-registry-preview",
+      "batch": "B4_MCP",
+      "source": "01_sources/html/mcp-registry-preview.md",
+      "source_words": 808,
+      "zh": "03_translations/mcp-registry-preview.zh.md",
+      "zh_rel": "03_translations/mcp-registry-preview.zh.md",
+      "status": "done",
+      "pdf": false
+    },
+    {
+      "slug": "mcp-server-authentication",
+      "batch": "B4_MCP",
+      "source": "01_sources/html/mcp-server-authentication.md",
+      "source_words": 2053,
+      "zh": "03_translations/mcp-server-authentication.zh.md",
+      "zh_rel": "03_translations/mcp-server-authentication.zh.md",
+      "status": "done",
+      "pdf": false
+    },
+    {
+      "slug": "context-rot",
+      "batch": "B5_上下文工程",
+      "source": "01_sources/html/context-rot.md",
+      "source_words": 7607,
+      "zh": "03_translations/context-rot.zh.md",
+      "zh_rel": "03_translations/context-rot.zh.md",
+      "status": "done",
+      "pdf": false
+    },
+    {
+      "slug": "how-long-contexts-fail",
+      "batch": "B5_上下文工程",
+      "source": "01_sources/html/how-long-contexts-fail.md",
+      "source_words": 1587,
+      "zh": "03_translations/how-long-contexts-fail.zh.md",
+      "zh_rel": "03_translations/how-long-contexts-fail.zh.md",
+      "status": "done",
+      "pdf": false
+    },
+    {
+      "slug": "specs-are-the-new-source-code",
+      "batch": "B5_上下文工程",
+      "source": "01_sources/html/specs-are-the-new-source-code.md",
+      "source_words": 2106,
+      "zh": "03_translations/specs-are-the-new-source-code.zh.md",
+      "zh_rel": "03_translations/specs-are-the-new-source-code.zh.md",
+      "status": "done",
+      "pdf": false
+    },
+    {
+      "slug": "claude-code-best-practices",
+      "batch": "B6_Claude Code与终端",
+      "source": "01_sources/html/claude-code-best-practices.md",
+      "source_words": 1579,
+      "zh": "03_translations/claude-code-best-practices.zh.md",
+      "zh_rel": "03_translations/claude-code-best-practices.zh.md",
+      "status": "done",
+      "pdf": false
+    },
+    {
+      "slug": "how-warp-uses-warp",
+      "batch": "B6_Claude Code与终端",
+      "source": "01_sources/html/how-warp-uses-warp.md",
+      "source_words": 14,
+      "zh": "03_translations/how-warp-uses-warp.zh.md",
+      "zh_rel": "03_translations/how-warp-uses-warp.zh.md",
+      "status": "done",
+      "pdf": false
+    },
+    {
+      "slug": "peeking-under-the-hood-of-claude-code",
+      "batch": "B6_Claude Code与终端",
+      "source": "01_sources/html/peeking-under-the-hood-of-claude-code.md",
+      "source_words": 37,
+      "zh": "03_translations/peeking-under-the-hood-of-claude-code.zh.md",
+      "zh_rel": "03_translations/peeking-under-the-hood-of-claude-code.zh.md",
+      "status": "done",
+      "pdf": false
+    },
+    {
+      "slug": "warp-vs-claude-code",
+      "batch": "B6_Claude Code与终端",
+      "source": "01_sources/html/warp-vs-claude-code.md",
+      "source_words": 675,
+      "zh": "03_translations/warp-vs-claude-code.zh.md",
+      "zh_rel": "03_translations/warp-vs-claude-code.zh.md",
+      "status": "done",
+      "pdf": false
+    },
+    {
+      "slug": "ai-code-review-best-practices",
+      "batch": "B7_代码评审",
+      "source": "01_sources/html/ai-code-review-best-practices.md",
+      "source_words": 2217,
+      "zh": "03_translations/ai-code-review-best-practices.zh.md",
+      "zh_rel": "03_translations/ai-code-review-best-practices.zh.md",
+      "status": "done",
+      "pdf": false
+    },
+    {
+      "slug": "code-review-essentials",
+      "batch": "B7_代码评审",
+      "source": "01_sources/html/code-review-essentials.md",
+      "source_words": 2080,
+      "zh": "03_translations/code-review-essentials.zh.md",
+      "zh_rel": "03_translations/code-review-essentials.zh.md",
+      "status": "done",
+      "pdf": false
+    },
+    {
+      "slug": "code-reviews-just-do-it",
+      "batch": "B7_代码评审",
+      "source": "01_sources/html/code-reviews-just-do-it.md",
+      "source_words": 960,
+      "zh": "03_translations/code-reviews-just-do-it.zh.md",
+      "zh_rel": "03_translations/code-reviews-just-do-it.zh.md",
+      "status": "done",
+      "pdf": false
+    },
+    {
+      "slug": "how-to-review-code-effectively",
+      "batch": "B7_代码评审",
+      "source": "01_sources/html/how-to-review-code-effectively.md",
+      "source_words": 3566,
+      "zh": "03_translations/how-to-review-code-effectively.zh.md",
+      "zh_rel": "03_translations/how-to-review-code-effectively.zh.md",
+      "status": "done",
+      "pdf": false
+    },
+    {
+      "slug": "lessons-from-ai-code-reviews",
+      "batch": "B7_代码评审",
+      "source": "01_sources/html/lessons-from-ai-code-reviews.md",
+      "source_words": 0,
+      "zh": "03_translations/lessons-from-ai-code-reviews.zh.md",
+      "zh_rel": "03_translations/lessons-from-ai-code-reviews.zh.md",
+      "status": "done",
+      "pdf": false
+    },
+    {
+      "slug": "agentic-ai-threats",
+      "batch": "B8_安全",
+      "source": "01_sources/html/agentic-ai-threats.md",
+      "source_words": 7749,
+      "zh": "03_translations/agentic-ai-threats.zh.md",
+      "zh_rel": "03_translations/agentic-ai-threats.zh.md",
+      "status": "done",
+      "pdf": false
+    },
+    {
+      "slug": "copilot-prompt-injection-rce",
+      "batch": "B8_安全",
+      "source": "01_sources/html/copilot-prompt-injection-rce.md",
+      "source_words": 1231,
+      "zh": "03_translations/copilot-prompt-injection-rce.zh.md",
+      "zh_rel": "03_translations/copilot-prompt-injection-rce.zh.md",
+      "status": "done",
+      "pdf": false
+    },
+    {
+      "slug": "finding-vulnerabilities-claude-codex",
+      "batch": "B8_安全",
+      "source": "01_sources/html/finding-vulnerabilities-claude-codex.md",
+      "source_words": 4292,
+      "zh": "03_translations/finding-vulnerabilities-claude-codex.zh.md",
+      "zh_rel": "03_translations/finding-vulnerabilities-claude-codex.zh.md",
+      "status": "done",
+      "pdf": false
+    },
+    {
+      "slug": "owasp-top-ten",
+      "batch": "B8_安全",
+      "source": "01_sources/html/owasp-top-ten.md",
+      "source_words": 2481,
+      "zh": "03_translations/owasp-top-ten.zh.md",
+      "zh_rel": "03_translations/owasp-top-ten.zh.md",
+      "status": "done",
+      "pdf": false
+    },
+    {
+      "slug": "sast-vs-dast",
+      "batch": "B8_安全",
+      "source": "01_sources/html/sast-vs-dast.md",
+      "source_words": 3067,
+      "zh": "03_translations/sast-vs-dast.zh.md",
+      "zh_rel": "03_translations/sast-vs-dast.zh.md",
+      "status": "done",
+      "pdf": false
+    },
+    {
+      "slug": "benefits-agentic-ai-oncall",
+      "batch": "B9_SRE与可观测",
+      "source": "01_sources/html/benefits-agentic-ai-oncall.md",
+      "source_words": 982,
+      "zh": "03_translations/benefits-agentic-ai-oncall.zh.md",
+      "zh_rel": "03_translations/benefits-agentic-ai-oncall.zh.md",
+      "status": "done",
+      "pdf": false
+    },
+    {
+      "slug": "kubernetes-troubleshooting-ai",
+      "batch": "B9_SRE与可观测",
+      "source": "01_sources/html/kubernetes-troubleshooting-ai.md",
+      "source_words": 1419,
+      "zh": "03_translations/kubernetes-troubleshooting-ai.zh.md",
+      "zh_rel": "03_translations/kubernetes-troubleshooting-ai.zh.md",
+      "status": "done",
+      "pdf": false
+    },
+    {
+      "slug": "multi-agent-systems-ai-native",
+      "batch": "B9_SRE与可观测",
+      "source": "01_sources/html/multi-agent-systems-ai-native.md",
+      "source_words": 2066,
+      "zh": "03_translations/multi-agent-systems-ai-native.zh.md",
+      "zh_rel": "03_translations/multi-agent-systems-ai-native.zh.md",
+      "status": "done",
+      "pdf": false
+    },
+    {
+      "slug": "observability-basics",
+      "batch": "B9_SRE与可观测",
+      "source": "01_sources/html/observability-basics.md",
+      "source_words": 1837,
+      "zh": "03_translations/observability-basics.zh.md",
+      "zh_rel": "03_translations/observability-basics.zh.md",
+      "status": "done",
+      "pdf": false
+    },
+    {
+      "slug": "ai-assisted-code-review-assessment",
+      "batch": "B10_PDF文档",
+      "source": "01_sources/pdf/ai-assisted-code-review-assessment.txt",
+      "source_words": 8008,
+      "zh": "03_translations/ai-assisted-code-review-assessment.zh.md",
+      "zh_rel": "03_translations/ai-assisted-code-review-assessment.zh.md",
+      "status": "done",
+      "pdf": true
+    },
+    {
+      "slug": "how-anthropic-uses-claude-code",
+      "batch": "B10_PDF文档",
+      "source": "01_sources/pdf/how-anthropic-uses-claude-code.txt",
+      "source_words": 10695,
+      "zh": "03_translations/how-anthropic-uses-claude-code.zh.md",
+      "zh_rel": "03_translations/how-anthropic-uses-claude-code.zh.md",
+      "status": "done",
+      "pdf": true
+    },
+    {
+      "slug": "how-openai-uses-codex",
+      "batch": "B10_PDF文档",
+      "source": "01_sources/pdf/how-openai-uses-codex.txt",
+      "source_words": 2064,
+      "zh": "03_translations/how-openai-uses-codex.zh.md",
+      "zh_rel": "03_translations/how-openai-uses-codex.zh.md",
+      "status": "done",
+      "pdf": true
+    }
+  ]
+}
